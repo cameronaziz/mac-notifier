@@ -1,0 +1,19 @@
+{
+  "name": "mac-notifier",
+  "version": "1.0.0",
+  "description": "An Electron app that when started triggers Mac notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src/main.js"
+  },
+  "keywords": [
+    "electron",
+    "mac",
+    "notifications"
+  ],
+  "author": "Cameron Aziz",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^13.1.6"
+  }
+}
